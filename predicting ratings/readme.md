@@ -6,31 +6,25 @@
 - разработать модель, которая предскажет итоговую оценку ученика. Критерий успеха: метрика accuracy не ниже 95%.
   
 # Навыки и инструменты
-# Обработка и анализ данных
+##### Обработка и анализ данных
 import pandas as pd
 import numpy as np
-
-# Визуализация
+##### Визуализация
 import matplotlib.pyplot as plt
 import seaborn as sns
 from phik.report import plot_correlation_matrix
-
-# Корреляционный анализ
+##### Корреляционный анализ
 from phik import phik_matrix
-
-# Предобработка данных
+##### Предобработка данных
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.compose import ColumnTransformer
-
-# Модели машинного обучения
+##### Модели машинного обучения
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
-
-# Обучение моделей и подбор гиперпараметров
+##### Обучение моделей и подбор гиперпараметров
 from sklearn.pipeline import Pipeline
 from sklearn.model_selection import train_test_split, GridSearchCV, KFold
-
-# Метрики качества
+##### Метрики качества
 from sklearn.metrics import accuracy_score
 
 # Общий вывод
