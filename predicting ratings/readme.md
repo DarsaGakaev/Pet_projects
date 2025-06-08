@@ -10,22 +10,25 @@
 - pandas
 - numpy
 ##### Визуализация
-import matplotlib.pyplot as plt
-import seaborn as sns
-from phik.report import plot_correlation_matrix
+- matplotlib.pyplot
+- seaborn
+- plot_correlation_matrix
 ##### Корреляционный анализ
-from phik import phik_matrix
+- phik_matrix
 ##### Предобработка данных
-from sklearn.preprocessing import MinMaxScaler
-from sklearn.compose import ColumnTransformer
+- MinMaxScaler
+- ColumnTransformer
 ##### Модели машинного обучения
-from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
+- LogisticRegression
+- RandomForestClassifier
+- GradientBoostingClassifier
 ##### Обучение моделей и подбор гиперпараметров
-from sklearn.pipeline import Pipeline
-from sklearn.model_selection import train_test_split, GridSearchCV, KFold
+- Pipeline
+- train_test_split
+- GridSearchCV
+- KFold
 ##### Метрики качества
-from sklearn.metrics import accuracy_score
+- accuracy_score
 
 # Общий вывод
 Было проведено обучение указанной модели и достигнута требуемая метрика.
