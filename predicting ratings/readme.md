@@ -7,8 +7,8 @@
   
 # Навыки и инструменты
 ##### Обработка и анализ данных
-import pandas as pd
-import numpy as np
+- pandas
+- numpy
 ##### Визуализация
 import matplotlib.pyplot as plt
 import seaborn as sns
