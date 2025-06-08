@@ -1,16 +1,37 @@
-[Проект в Jupyter Notebook](https://github.com/DarsaGakaev/Practicum_projects/blob/main/milking_cows/cows.ipynb)
+[Проект в Jupyter Notebook](https://github.com/DarsaGakaev/Pet_projects/blob/main/predicting_rating/cows.ipynb)
 
 # Описание проекта
-Фермер хочет купить бурёнок, чтобы расширить поголовье стада коров. По его заказу разрабатываются модели машинного обучения, которые помогут ему управлять рисками и принимать объективное решение о покупке. В связи с этим необходимо:
+Для повышения уровня выпускников, министерство образования планирует предпринимать превентивные меры для улучшения оценок студентов. Для этого необходимо заранее выявлять потенциальных студентов, которые могут получить низкую итоговую оценку.В связи с этим необходимо:
 
-- разработать модель, которая предсказывает объем получаемого молока от коров (удовлетворительный показатель: не менее 6000 кг от одной коровы в год);
-- разработать модель, которая предсказывает вкус молока.
+- разработать модель, которая предскажет итоговую оценку ученика. Критерий успеха: метрика accuracy не ниже 95%.
+  
 # Навыки и инструменты
-pandas<br>
-matplotlib<br>
-seaborn<br>
-numpy<br>
-phik<br>
-sklearn
+# Обработка и анализ данных
+import pandas as pd
+import numpy as np
+
+# Визуализация
+import matplotlib.pyplot as plt
+import seaborn as sns
+from phik.report import plot_correlation_matrix
+
+# Корреляционный анализ
+from phik import phik_matrix
+
+# Предобработка данных
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.compose import ColumnTransformer
+
+# Модели машинного обучения
+from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
+
+# Обучение моделей и подбор гиперпараметров
+from sklearn.pipeline import Pipeline
+from sklearn.model_selection import train_test_split, GridSearchCV, KFold
+
+# Метрики качества
+from sklearn.metrics import accuracy_score
+
 # Общий вывод
-Было проведено обучение указанных моделей и определены коровы, пригодные для покупки.
+Было проведено обучение указанной модели и достигнута требуемая метрика.
