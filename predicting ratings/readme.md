@@ -1,4 +1,4 @@
-[Проект в Jupyter Notebook](https://github.com/DarsaGakaev/Pet_projects/blob/main/predicting_rating/cows.ipynb)
+[Проект в Jupyter Notebook](https://github.com/DarsaGakaev/Pet_projects/blob/main/predicting%20ratings/predicting_ratings.ipynb)
 
 # Описание проекта
 Для повышения уровня выпускников, министерство образования планирует предпринимать превентивные меры для улучшения оценок студентов. Для этого необходимо заранее выявлять потенциальных студентов, которые могут получить низкую итоговую оценку.В связи с этим необходимо:
